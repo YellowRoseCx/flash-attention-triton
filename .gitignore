@@ -28,6 +28,7 @@ var/
 
 # Dev
 venv
+triton
 
 # AMD
 scripts
