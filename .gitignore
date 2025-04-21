@@ -34,6 +34,7 @@ triton
 scripts
 csrc/flash_attn_ck
 .eggs
+log
 *.log
 core.*
 gpucore.*
@@ -42,3 +43,10 @@ gpucore.*
 *.html
 *.json
 *.txt
+*.pth
+*.md
+training/logs
+training/data
+# ck modules
+csrc/composable_kernel
+csrc/cutlass
